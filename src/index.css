@@ -1,0 +1,123 @@
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* color: aqua; */
+  border-color: black;
+}
+#root {
+  background-color: rgb(4, 57, 88);
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.text-heading{
+  color:white;
+  font:2rem;
+  text-transform: capitalize;
+}
+.d-flex{
+display: flex;
+}
+.align-items-center{
+  align-items: center;
+}
+.justify-content-around{
+  justify-content: space-around;
+}
+.justify-content-between{
+  justify-content: space-between;
+}
+.flex-column{
+  flex-direction: column;
+}
+button{
+  cursor: pointer;
+  height: 2rem;
+  width: fit-content;
+  border-radius: 5px;
+  padding: 2px 3px;
+  text-align: center;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+.item{
+  font-size: 1.21rem;
+}
+input {
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius:0;
+  font-size: 1.5rem;
+  height: 2.3rem;
+  padding: .5rem;
+  outline: none;
+  border-right: none;
+  color: rgb(2, 34, 95);
+}
+.inputCheck{
+  height: 1rem;
+  width: 1rem;
+  margin-right: 3px;
+}
+.listItem  {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius:5px;
+  border-radius: 5px;
+  font-size: 1.5rem ;
+  padding: 0 5px;
+  background-color: white;
+  height: 2rem;
+  border: 2px solid black;
+  border-left: none;
+  height: 2.3rem;
+  color: rgb(3, 38, 104);
+  margin: 5px 0;
+}
+.btn-add{
+  border-radius: 0;
+
+  border-top-right-radius: 5px;
+  border-bottom-right-radius:5px;
+  padding: 0 15px;
+/* color: yellow; */
+  height: 2.3rem;
+
+}
+.btn-add:hover ,.btn-edit:hover{
+  background-color: rgb(9, 201, 2);
+  color: white;
+}
+.pagination{
+  padding: 2px 14px;
+}
+.pagination:disabled{
+  padding: 2px 14px;
+  background: rgb(206, 197, 180);
+}
+
+.listItem:hover{
+  color: rgb(41, 3, 3) !important;
+  background-color: rgb(227, 234, 240) !important;
+}
+.btn-delete:hover,.btn-remove {
+  color: white;
+  background-color: rgb(208, 10, 10)
+}
+.btn-remove {
+  margin-top: 10px;
+}
+.icons{
+  width: 20%;
+}
+.sub{
+  width: 100%;
+  max-height: auto;  
+  overflow-y:hidden;
+  /* overflow-y: none; */
+  /* scrollbar-width: 10px;
+  scrollbar-track-color: red; */
+  scroll-margin-left: 5rem;
+}
