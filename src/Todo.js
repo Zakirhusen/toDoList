@@ -85,7 +85,7 @@ const Todo = () => {
   // for updating checkbox ticked or not 
   const checkBoxEdit=(id)=>{
       let checkBoxEditedArr=listItem.map((curElem,index)=>{
-        if (id==curElem.id) {
+        if (id===curElem.id) {
           curElem.completed=!curElem.completed
         }
         return curElem
